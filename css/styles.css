@@ -30,6 +30,10 @@ img {
   height: auto;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
     width: 1440px;
     margin: 0 auto;
@@ -67,4 +71,34 @@ img {
 }
 .header-btn {
     margin-left: auto;
+}
+
+.hero {
+  background: #F1F1F2;
+}
+
+.hero-container {
+  display: flex;
+}
+
+.wraper {
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hero-title {
+font-size: 56px;
+line-height: 69px;
+margin-bottom: 36px;
+
+}
+.hero-text {
+font-size: 20px;
+line-height: 140.62%;
+margin-bottom: 60px;
+}
+
+.content-box {
+  width: 433px;
 }
