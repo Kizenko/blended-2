@@ -1,0 +1,70 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+.header {
+    background-color: #FAFAFA;
+       
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.container {
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    
+}
+.header-list {
+    display: flex;
+    margin-left: 433px;
+    gap: 31px;
+}
+.header-item {
+}
+.header-link {
+    display: block;
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+.header-btn {
+    margin-left: auto;
+}
