@@ -31,50 +31,47 @@ img {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
-    width: 1440px;
-    margin: 0 auto;
-
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .header {
-    background-color: #FAFAFA;
-       
+  background-color: #fafafa;
 }
 .header-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .container {
 }
 .header-nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .header-logo {
-    
 }
 .header-list {
-    display: flex;
-    margin-left: 433px;
-    gap: 31px;
+  display: flex;
+  margin-left: 433px;
+  gap: 31px;
 }
 .header-item {
 }
 .header-link {
-    display: block;
-    padding-top: 47px;
-    padding-bottom: 47px;
+  display: block;
+  padding-top: 47px;
+  padding-bottom: 47px;
 }
 .header-btn {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .hero {
-  background: #F1F1F2;
+  background: #f1f1f2;
 }
 
 .hero-container {
@@ -82,23 +79,56 @@ body {
 }
 
 .wraper {
-width: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero-title {
-font-size: 56px;
-line-height: 69px;
-margin-bottom: 36px;
-
+  font-size: 56px;
+  line-height: 69px;
+  margin-bottom: 36px;
 }
 .hero-text {
-font-size: 20px;
-line-height: 140.62%;
-margin-bottom: 60px;
+  font-size: 20px;
+  line-height: 140.62%;
+  margin-bottom: 60px;
 }
 
 .content-box {
   width: 433px;
+}
+
+.second-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.gifts {
+  background-color: #ffffff;
+  padding-top: 96px;
+  padding-bottom: 137px;
+}
+
+.gifts-title {
+  text-align: center;
+  margin-bottom: 23px;
+}
+.gifts-text {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.gifts-list {
+  display: flex;
+  gap: 30px;
+}
+.gifts-item {
+  background-color: #fafafa;
+  width: calc((100% - 90px) / 4);
+}
+.gifts-wrap {
+  padding: 24px;
+}
+.gifts-wrap-title {
+  margin-bottom: 74px;
 }
